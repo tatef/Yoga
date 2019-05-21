@@ -11,9 +11,6 @@ function form() {
     input1 = formTelEmail.getElementsByTagName('input')[0],
     input2 = formTelEmail.getElementsByTagName('input')[1];
 
-  input1.name = 'email';
-  input2.name = 'phone';
-
   statusMessage.classList.add('status');
   input2.onkeypress = function (event) {
     if (event.keyCode != 43) {
