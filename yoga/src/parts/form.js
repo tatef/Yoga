@@ -8,8 +8,8 @@ function form() {
     input = form.getElementsByTagName('input')[0],
     statusMessage = document.createElement('div'),
     formTelEmail = document.getElementById('form'),
-    input1 = formTelEmail.getElementsByTagName('input')[0],
     input2 = formTelEmail.getElementsByTagName('input')[1];
+    
 
   statusMessage.classList.add('status');
   input2.onkeypress = function (event) {
